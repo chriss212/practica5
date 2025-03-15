@@ -16,7 +16,7 @@ export default function Modal() {
   const handleClickFavorite = useAppStore((state) => state.handleClickFavorite);
   const favoriteExists = useAppStore((state) => state.favoriteExists);
 
-  const addNotification = useAppStore((state) => state.addNotification); // ✅ Agregar notificaciones
+  const addNotification = useAppStore((state) => state.addNotification);
 
 
   //Funcion para renderizar la lista de ingredientes de una bebida
